@@ -1,0 +1,19 @@
+/node_modules
+/.vscode
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/there there
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+design_log.txt
+node_modules/babel-runtime/core-js/math/imul.js
+node_modules/babel-runtime/core-js/math/imulh.js
+composer.lock
