@@ -55,7 +55,7 @@ class StatementController extends Controller
                 ->paginate();
         }
         else {
-            $statements = UserRequest::whereBetween('created_at', [$start_date, $end_date])
+            $statements = UserRequest::whereBetween('created_at', [$end_date])
                 ->whereIn('status', $status)
                 ->latest()
                 ->paginate();
