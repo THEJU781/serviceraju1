@@ -34,7 +34,7 @@ class StatementController extends Controller
 
         // According to developer.android.com month ranges from 0-11. So you need to increment it by 1.
 
-        $start_date = $request->start_date ? $request->start_date : UserRequest::first()->created_at;
+        //$start_date = $request->start_date ? $request->start_date : UserRequest::first()->created_at;
         $end_date = $request->end_date ? $request->end_date : Carbon::now();
 
 
